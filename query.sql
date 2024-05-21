@@ -1,4 +1,4 @@
-#ScalarSubquery IN
+# ScalarSubquery IN 
 SELECT nm_pegawai
 FROM pegawai
 WHERE salary < (SELECT AVG(salary) FROM pegawai);
